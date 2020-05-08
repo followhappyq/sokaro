@@ -1,0 +1,32 @@
+.sidebar-menu {
+  display: flex !important;
+  align-items: center !important;
+  font-family: "Oswald" !important;
+  background-color: #fff !important;
+
+  &-close {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    cursor: pointer;
+    &:hover {
+      color: #c7a770;
+    }
+  }
+
+  &__image {
+    margin-top: 20px;
+  }
+
+  &__description {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  &__social {
+    margin-top: 20px;
+    a:hover {
+      color: #c7a770;
+    }
+  }
+}

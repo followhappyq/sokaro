@@ -1,1 +1,1 @@
-/* export { default as booksActions } from "./books" */
+export { default as sideBarActions } from "./sidebar"
