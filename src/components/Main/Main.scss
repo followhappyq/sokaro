@@ -1,3 +1,10 @@
-.main-container {
-  max-width: 1180px;
+.wrapper {
+  display: flex;
+  justify-content: center;
+  .main-container {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    flex-wrap: wrap;
+  }
 }

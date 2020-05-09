@@ -28,3 +28,21 @@ code {
   border: none;
   border-radius: 0;
 }
+
+h3 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+h3::before,
+h3::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+h3::before {
+  margin-right: 0.25em;
+}
+h3::after {
+  margin-left: 0.25em;
+}

@@ -18,8 +18,6 @@ const LastPost = () => {
         {post.slice(-1)[0].title}
       </Header>
       <p className="last-post__text">{post.slice(-1)[0].text}</p>
-
-      {console.log(post && post.slice(-1)[0])}
     </div>
   ) : (
     <div></div>
