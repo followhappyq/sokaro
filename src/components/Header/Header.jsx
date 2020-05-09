@@ -15,7 +15,7 @@ const Header = ({ onSideBarVisible }) => {
               SOKARO
             </li>
             <li className="item">
-              <Icon name="call" rotated="90" />
+              <Icon name="call" rotated="clockwise" />
               +7 988 314 05 06
             </li>
           </ul>

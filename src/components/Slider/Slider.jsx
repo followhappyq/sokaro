@@ -1,7 +1,9 @@
 import React from "react"
 
-const Slider = () => {
-  return <div></div>
+import "./Slider.scss"
+
+const BaseSlider = () => {
+  return <div className="glide"></div>
 }
 
-export default Slider
+export default BaseSlider
