@@ -1,7 +1,6 @@
 import React from "react"
-import { Container } from "semantic-ui-react"
 
-import { LastPost, MyCreations } from "../"
+import { LastPost, MyCreations, Post } from "../"
 import "./Main.scss"
 
 const Main = () => {
@@ -10,6 +9,12 @@ const Main = () => {
       <div className="main-container">
         <LastPost />
         <MyCreations />
+        <div className="main-container__post-container">
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+        </div>
       </div>
     </div>
   )

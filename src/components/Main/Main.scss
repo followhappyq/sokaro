@@ -6,5 +6,11 @@
     justify-content: space-around;
     width: 70%;
     flex-wrap: wrap;
+    &__post-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      width: 100%;
+    }
   }
 }

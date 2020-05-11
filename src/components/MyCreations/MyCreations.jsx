@@ -11,12 +11,13 @@ const MyCreations = () => {
 
   const fetchInstagramPhotos = async (accountUrl) => {
     const response = await axios.get(accountUrl)
+    console.log(response)
     const json = JSON.parse(response.data.match(instagramRegExp)[1])
+    console.log(json)
     const edges = json.entry_data.ProfilePage[0].graphql.user.edge_owner_to_timeline_media.edges.splice(
       0,
       12
     )
-
     const photos = edges.map(({ node }) => {
       return {
         url: `https://www.instagram.com/p/${node.shortcode}/`,
@@ -30,11 +31,11 @@ const MyCreations = () => {
   }
 
   useEffect(() => {
-    fetchInstagramPhotos("https://www.instagram.com/sokarocraft/").then(
+    /* fetchInstagramPhotos("https://www.instagram.com/sokarocraft/").then(
       (data) => {
         setImages(data)
       }
-    )
+    ) */
     // eslint-disable-next-line
   }, [])
   return (

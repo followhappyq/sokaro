@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import { Header } from "semantic-ui-react"
 
 import posts from "../../data/posts.json"
+import { Social } from "../"
 import "./LastPost.scss"
 
 const LastPost = () => {
@@ -18,6 +19,15 @@ const LastPost = () => {
         {post.slice(-1)[0].title}
       </Header>
       <p className="last-post__text">{post.slice(-1)[0].text}</p>
+      <a
+        href="https://www.instagram.com/sokarocraft/?hl=ru"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="last-post__button"
+      >
+        VIEW POST
+      </a>
+      <Social />
     </div>
   ) : (
     <div></div>
