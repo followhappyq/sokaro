@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sokaro/static/css/main.92708fb0.chunk.css",
+    "main.js": "/sokaro/static/js/main.ad5636c8.chunk.js",
+    "main.js.map": "/sokaro/static/js/main.ad5636c8.chunk.js.map",
+    "runtime-main.js": "/sokaro/static/js/runtime-main.53dd6df4.js",
+    "runtime-main.js.map": "/sokaro/static/js/runtime-main.53dd6df4.js.map",
+    "static/js/2.705bd4c9.chunk.js": "/sokaro/static/js/2.705bd4c9.chunk.js",
+    "static/js/2.705bd4c9.chunk.js.map": "/sokaro/static/js/2.705bd4c9.chunk.js.map",
+    "index.html": "/sokaro/index.html",
+    "precache-manifest.a7102b72f9178391609e34cd61cc2efd.js": "/sokaro/precache-manifest.a7102b72f9178391609e34cd61cc2efd.js",
+    "service-worker.js": "/sokaro/service-worker.js",
+    "static/css/main.92708fb0.chunk.css.map": "/sokaro/static/css/main.92708fb0.chunk.css.map",
+    "static/js/2.705bd4c9.chunk.js.LICENSE.txt": "/sokaro/static/js/2.705bd4c9.chunk.js.LICENSE.txt",
+    "static/media/Header.scss": "/sokaro/static/media/header-background.2dad7c07.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53dd6df4.js",
+    "static/js/2.705bd4c9.chunk.js",
+    "static/css/main.92708fb0.chunk.css",
+    "static/js/main.ad5636c8.chunk.js"
+  ]
+}
