@@ -1,0 +1,19 @@
+.footer-wrap {
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+  .footer-instagram {
+    display: flex;
+    &__item {
+      width: 12.5%;
+    }
+  }
+  .footer-info {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242424;
+    color: white;
+  }
+}

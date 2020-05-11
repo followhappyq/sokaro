@@ -1,6 +1,6 @@
 import React from "react"
 
-import { LastPost, MyCreations, Post } from "../"
+import { LastPost, MyCreations, Post, TagCloud } from "../"
 import "./Main.scss"
 
 const Main = () => {
@@ -8,7 +8,11 @@ const Main = () => {
     <div className="wrapper">
       <div className="main-container">
         <LastPost />
-        <MyCreations />
+        <div className="main-container__sidebar">
+          <MyCreations />
+          <TagCloud />
+        </div>
+
         <div className="main-container__post-container">
           <Post />
           <Post />

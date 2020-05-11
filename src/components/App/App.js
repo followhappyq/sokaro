@@ -2,7 +2,7 @@ import React from "react"
 import { Segment, Sidebar } from "semantic-ui-react"
 
 import { Header, SideBar as BaseSideBar } from "../../containers"
-import { Main } from "../"
+import { Main, Footer } from "../"
 import "./App.scss"
 
 const App = ({ isVisible }) => {
@@ -14,6 +14,7 @@ const App = ({ isVisible }) => {
           <Segment basic style={{ padding: 0 }}>
             <Header />
             <Main />
+            <Footer />
           </Segment>
         </Sidebar.Pusher>
       </Sidebar.Pushable>

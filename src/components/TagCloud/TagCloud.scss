@@ -1,0 +1,26 @@
+.tag-cloud {
+  width: 300px;
+  text-transform: uppercase;
+  &__header {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 16px;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    &-item {
+      background: #262626;
+      margin: 2px 4px;
+      opacity: 0.8;
+      color: white;
+      padding: 10px 20px;
+      cursor: pointer;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
