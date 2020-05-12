@@ -13,6 +13,14 @@ export default {
       12
     )
     const photos = edges.map(({ node }) => {
+      if (node.edge_media_to_caption.edges[0] === undefined) {
+        return {
+          url: `https://www.instagram.com/p/${node.shortcode}/`,
+          thumbnailUrl: node.thumbnail_src,
+          displayUrl: node.display_url,
+        }
+      }
+
       return {
         url: `https://www.instagram.com/p/${node.shortcode}/`,
         thumbnailUrl: node.thumbnail_src,

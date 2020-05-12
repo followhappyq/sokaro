@@ -3,7 +3,6 @@ import React from "react"
 import "./TagCloud.scss"
 
 const TagCloud = ({ tags }) => {
-  console.log(tags)
   return (
     <div className="tag-cloud">
       <h3 className="tag-cloud__header">TAG CLOUD</h3>

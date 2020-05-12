@@ -6,7 +6,11 @@ import { TagCloud as BaseTagCloud } from "../../components"
 const TagCloud = ({ tags }) => {
   return tags ? (
     <BaseTagCloud
-      tags={tags.caption.slice(tags.caption.indexOf("#")).trim().split("#")}
+      tags={
+        tags.caption !== undefined
+          ? tags.caption.slice(tags.caption.indexOf("#")).trim().split("#")
+          : ["tag"]
+      }
     />
   ) : (
     <Loader />
