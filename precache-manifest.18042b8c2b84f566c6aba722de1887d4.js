@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "28ae75b1cdf36bac90b802901fdf4f57",
+    "revision": "7f45d853896d8ba45dfbf16517b47237",
     "url": "/sokaro/index.html"
   },
   {
-    "revision": "b8aca4b429e2003ced1d",
-    "url": "/sokaro/static/css/main.92708fb0.chunk.css"
+    "revision": "155eee82ef79433a6f60",
+    "url": "/sokaro/static/css/main.0e16c576.chunk.css"
   },
   {
-    "revision": "1b11d4233e2ca8945c52",
-    "url": "/sokaro/static/js/2.705bd4c9.chunk.js"
+    "revision": "edc50f095b7e7a6b4b78",
+    "url": "/sokaro/static/js/2.e664f860.chunk.js"
   },
   {
     "revision": "4d47ffde3dc69784e8e23fd910817ef8",
-    "url": "/sokaro/static/js/2.705bd4c9.chunk.js.LICENSE.txt"
+    "url": "/sokaro/static/js/2.e664f860.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8aca4b429e2003ced1d",
-    "url": "/sokaro/static/js/main.ad5636c8.chunk.js"
+    "revision": "155eee82ef79433a6f60",
+    "url": "/sokaro/static/js/main.7902da84.chunk.js"
   },
   {
     "revision": "d848d476d36b88c03282",
