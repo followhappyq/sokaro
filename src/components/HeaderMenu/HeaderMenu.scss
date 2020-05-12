@@ -10,6 +10,13 @@
       font-size: 15px;
       cursor: pointer;
       transition: 0.3s ease;
+      a {
+        color: #fff;
+        transition: 0.3s ease;
+        &:hover {
+          color: #c7a770;
+        }
+      }
       &:hover {
         color: #c7a770;
       }

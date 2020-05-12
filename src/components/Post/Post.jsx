@@ -14,7 +14,9 @@ const Post = ({ post }) => {
           My creation
         </a>
       </div>
-      <div className="post__text">{post.caption}</div>
+      <div className="post__text">
+        {post.caption.slice(0, post.caption.indexOf("#"))}
+      </div>
       <Social />
     </div>
   )

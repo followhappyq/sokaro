@@ -25,6 +25,16 @@
       }
     }
 
+    @media screen and (max-width: 600px) {
+      &__contacts {
+        display: none;
+      }
+
+      &__button {
+        display: none;
+      }
+    }
+
     &__social {
       i {
         color: #fff;

@@ -11,7 +11,9 @@ const LastPost = ({ data }) => {
       <Header className="last-post__header" textAlign="center">
         My last creation
       </Header>
-      <p className="last-post__text">{data.caption}</p>
+      <p className="last-post__text">
+        {data.caption.slice(0, data.caption.indexOf("#"))}
+      </p>
       <a
         href={data.url}
         target="_blank"
