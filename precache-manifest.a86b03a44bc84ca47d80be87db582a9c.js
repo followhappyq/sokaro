@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa33a806b9f1fed63da5ea0b4e4f8823",
+    "revision": "f7092a3edd4ec6fba9f90f61d1ff00ec",
     "url": "/sokaro/index.html"
   },
   {
-    "revision": "82b4860d8d04b701fd7b",
-    "url": "/sokaro/static/css/main.0e16c576.chunk.css"
+    "revision": "b04d926fd7f3f11232b5",
+    "url": "/sokaro/static/css/main.0bd69d18.chunk.css"
   },
   {
-    "revision": "edc50f095b7e7a6b4b78",
-    "url": "/sokaro/static/js/2.e664f860.chunk.js"
+    "revision": "039048ed73215163cfde",
+    "url": "/sokaro/static/js/2.72798937.chunk.js"
   },
   {
     "revision": "4d47ffde3dc69784e8e23fd910817ef8",
-    "url": "/sokaro/static/js/2.e664f860.chunk.js.LICENSE.txt"
+    "url": "/sokaro/static/js/2.72798937.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "82b4860d8d04b701fd7b",
-    "url": "/sokaro/static/js/main.90df8d3d.chunk.js"
+    "revision": "b04d926fd7f3f11232b5",
+    "url": "/sokaro/static/js/main.4d6c92b1.chunk.js"
   },
   {
     "revision": "d848d476d36b88c03282",
