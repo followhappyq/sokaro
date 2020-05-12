@@ -1,26 +1,28 @@
 import React from "react"
 
-import { LastPost, MyCreations, Post, TagCloud } from "../"
+import { Post } from "../"
+import { MyCreations, LastPost, TagCloud } from "../../containers"
 import "./Main.scss"
 
-const Main = () => {
+const Main = ({ posts }) => {
   return (
-    <div className="wrapper">
-      <div className="main-container">
-        <LastPost />
-        <div className="main-container__sidebar">
-          <MyCreations />
-          <TagCloud />
-        </div>
+    posts && (
+      <div className="wrapper">
+        <div className="main-container">
+          <LastPost />
+          <div className="main-container__sidebar">
+            <MyCreations />
+            <TagCloud tags={posts[0]} />
+          </div>
 
-        <div className="main-container__post-container">
-          <Post />
-          <Post />
-          <Post />
-          <Post />
+          <div className="main-container__post-container">
+            {posts.slice(1).map((post) => (
+              <Post post={post} key={Math.random()} />
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    )
   )
 }
 

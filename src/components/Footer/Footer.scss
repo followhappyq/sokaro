@@ -2,18 +2,31 @@
   display: flex;
   padding-top: 50px;
   flex-direction: column;
-  .footer-instagram {
-    display: flex;
-    &__item {
-      width: 12.5%;
+
+  .footer {
+    &-line {
+      height: 30px;
+      background-color: #242424;
     }
-  }
-  .footer-info {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #242424;
-    color: white;
+    &-instagram {
+      display: flex;
+      &__item {
+        width: 12.5%;
+      }
+    }
+    &-info {
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #242424;
+      color: white;
+      p {
+        cursor: pointer;
+        &:hover {
+          color: #c7a770;
+        }
+      }
+    }
   }
 }

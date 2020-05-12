@@ -1,26 +1,19 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import { Header } from "semantic-ui-react"
 
-import posts from "../../data/posts.json"
 import { Social } from "../"
 import "./LastPost.scss"
 
-const LastPost = () => {
-  const [post, setPost] = useState()
-
-  useEffect(() => {
-    setPost(posts)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
-  return post ? (
+const LastPost = ({ data }) => {
+  return data ? (
     <div className="last-post">
-      <img className="last-post__image" src={post.slice(-1)[0].image} alt="1" />
+      <img className="last-post__image" src={data.thumbnailUrl} alt="1" />
       <Header className="last-post__header" textAlign="center">
-        {post.slice(-1)[0].title}
+        My last creation
       </Header>
-      <p className="last-post__text">{post.slice(-1)[0].text}</p>
+      <p className="last-post__text">{data.caption}</p>
       <a
-        href="https://www.instagram.com/sokarocraft/?hl=ru"
+        href={data.url}
         target="_blank"
         rel="noopener noreferrer"
         className="last-post__button"

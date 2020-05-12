@@ -1,8 +1,8 @@
 import React from "react"
 import { Segment, Sidebar } from "semantic-ui-react"
 
-import { Header, SideBar as BaseSideBar } from "../../containers"
-import { Main, Footer } from "../"
+import { Header, SideBar as BaseSideBar, Main } from "../../containers"
+import { Footer } from "../"
 import "./App.scss"
 
 const App = ({ isVisible }) => {

@@ -5,6 +5,7 @@ import "./Footer.scss"
 const Footer = () => {
   return (
     <footer className="footer-wrap">
+      <div className="footer-line"></div>
       <div className="footer-instagram">
         <img
           src="https://scontent-waw1-1.cdninstagram.com/v/t51.2885-15/e35/c180.0.1079.1079a/s240x240/82150088_209722040157974_3367382490889267525_n.jpg?_nc_ht=scontent-waw1-1.cdninstagram.com&_nc_cat=102&_nc_ohc=Ch7Unj0ElyEAX-P3-5d&oh=ad143b7650614ce27995c9f61ee5ba30&oe=5EE12EE5"
@@ -47,7 +48,9 @@ const Footer = () => {
           className="footer-instagram__item"
         />
       </div>
-      <div className="footer-info">Copyrights &copy; 2020 SokaroCraft</div>
+      <div className="footer-info">
+        <p>Copyrights &copy; 2020 SokaroCraft</p>
+      </div>
     </footer>
   )
 }
