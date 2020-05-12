@@ -14,7 +14,7 @@ const Social = () => {
         >
           {" "}
           <span>Pikabu?</span>
-          <Icon name="facebook f" size="big" />
+          <Icon name="facebook f" size="large" />
         </a>
         <a
           href="https://vk.com/teemkampy"
@@ -22,7 +22,7 @@ const Social = () => {
           rel="noopener noreferrer"
         >
           <span>VK</span>
-          <Icon name="vk" size="big" />
+          <Icon name="vk" size="large" />
         </a>
         <a
           href="https://www.instagram.com/sokarocraft/"
@@ -30,7 +30,7 @@ const Social = () => {
           rel="noopener noreferrer"
         >
           <span>Instagram</span>
-          <Icon name="instagram" size="big" />
+          <Icon name="instagram" size="large" />
         </a>
       </h3>
     </div>

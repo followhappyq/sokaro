@@ -8,7 +8,7 @@ const HeaderMenu = () => {
     <div className="header-menu">
       <ul className="header-menu__list">
         <li className="header-menu__list-item">
-          <Link to="/">HOME</Link>
+          <Link to="/sokaro">HOME</Link>
         </li>
         <li className="header-menu__list-item">GALLERY</li>
         <li className="header-menu__list-item">

@@ -15,7 +15,7 @@ const App = ({ isVisible }) => {
           <Segment basic style={{ padding: 0 }}>
             <Header />
             <Switch>
-              <Route exact path="/">
+              <Route exact path={["/sokaro", "/"]}>
                 <Main />
               </Route>
               <Route exact path="/contact">

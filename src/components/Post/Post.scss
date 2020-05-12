@@ -12,6 +12,16 @@
       color: black;
     }
   }
+
+  @media screen and (max-width: 600px) {
+    &__header {
+      display: none;
+    }
+
+    &__text {
+      font-size: 12px;
+    }
+  }
   img {
     width: 100%;
     height: 70%;
