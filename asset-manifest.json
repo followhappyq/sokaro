@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/sokaro/static/css/main.0bd69d18.chunk.css",
-    "main.js": "/sokaro/static/js/main.275ca21a.chunk.js",
-    "main.js.map": "/sokaro/static/js/main.275ca21a.chunk.js.map",
+    "main.css": "/sokaro/static/css/main.27d98224.chunk.css",
+    "main.js": "/sokaro/static/js/main.a150e76d.chunk.js",
+    "main.js.map": "/sokaro/static/js/main.a150e76d.chunk.js.map",
     "runtime-main.js": "/sokaro/static/js/runtime-main.53dd6df4.js",
     "runtime-main.js.map": "/sokaro/static/js/runtime-main.53dd6df4.js.map",
     "static/js/2.72798937.chunk.js": "/sokaro/static/js/2.72798937.chunk.js",
     "static/js/2.72798937.chunk.js.map": "/sokaro/static/js/2.72798937.chunk.js.map",
     "index.html": "/sokaro/index.html",
-    "precache-manifest.396faf2fbdfc34a5912cdb83e7b33d30.js": "/sokaro/precache-manifest.396faf2fbdfc34a5912cdb83e7b33d30.js",
+    "precache-manifest.054a8b1630b4d1f9bc478fa065ef3bc7.js": "/sokaro/precache-manifest.054a8b1630b4d1f9bc478fa065ef3bc7.js",
     "service-worker.js": "/sokaro/service-worker.js",
-    "static/css/main.0bd69d18.chunk.css.map": "/sokaro/static/css/main.0bd69d18.chunk.css.map",
+    "static/css/main.27d98224.chunk.css.map": "/sokaro/static/css/main.27d98224.chunk.css.map",
     "static/js/2.72798937.chunk.js.LICENSE.txt": "/sokaro/static/js/2.72798937.chunk.js.LICENSE.txt",
     "static/media/Header.scss": "/sokaro/static/media/header-background.2dad7c07.png"
   },
   "entrypoints": [
     "static/js/runtime-main.53dd6df4.js",
     "static/js/2.72798937.chunk.js",
-    "static/css/main.0bd69d18.chunk.css",
-    "static/js/main.275ca21a.chunk.js"
+    "static/css/main.27d98224.chunk.css",
+    "static/js/main.a150e76d.chunk.js"
   ]
 }
