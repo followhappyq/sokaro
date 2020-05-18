@@ -11,11 +11,17 @@ const Post = ({ post }) => {
       </div>
       <div className="post__header">
         <a href={post.url} target="_blank" rel="noopener noreferrer">
-          My creation
+          {post.caption.slice(0, post.caption.indexOf("#"))}
         </a>
       </div>
       <div className="post__text">
-        {post.caption.slice(0, post.caption.indexOf("#"))}
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil tempora
+        dolore quia cupiditate excepturi, enim corrupti id assumenda expedita
+        dolorum error ipsam animi! Dolore sit reiciendis unde libero, aut
+        possimus!Maxime maiores, quae vero enim tempore veniam nam aliquid
+        explicabo obcaecati. Blanditiis eius fuga rem reprehenderit obcaecati
+        temporibus excepturi natus voluptate? Cumque odit blanditiis corporis
+        aliquid quibusdam consequatur ut laboriosam?
       </div>
       <Social />
     </div>

@@ -16,7 +16,7 @@ const Main = ({ posts }) => {
           </div>
 
           <div className="main-container__post-container">
-            {posts.slice(1).map((post) => (
+            {posts.slice(1, 7).map((post) => (
               <Post post={post} key={Math.random()} />
             ))}
           </div>

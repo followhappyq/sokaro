@@ -15,10 +15,17 @@ const Contact = () => {
         </div>
         <div className="contact__header">Contact Us</div>
         <div className="contact__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti,
-          facere voluptatum! Ab excepturi saepe nihil neque facere, inventore
-          quidem voluptatum, assumenda recusandae quasi accusamus, incidunt
-          nostrum laudantium quo dignissimos fuga.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+          distinctio laudantium eum asperiores culpa quibusdam mollitia
+          temporibus doloribus labore quasi suscipit itaque omnis architecto et
+          aliquam quisquam, laborum soluta nam. Ipsa illo suscipit sequi
+          assumenda odio hic, et minus maxime consequatur tenetur debitis, culpa
+          reprehenderit reiciendis minima? Quisquam labore doloribus, dicta
+          sequi unde exercitationem minus pariatur dolore recusandae nulla
+          nesciunt? Accusamus, perspiciatis molestiae facere nobis facilis quasi
+          perferendis dolore velit, mollitia dicta consequuntur dolorum rem nemo
+          omnis culpa iusto, repellendus repellat sint laboriosam quisquam
+          libero recusandae officiis! Ducimus, ipsum sapiente.
         </div>
         <div className="contact__info">
           <ul>

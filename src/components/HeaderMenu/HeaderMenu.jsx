@@ -10,7 +10,9 @@ const HeaderMenu = () => {
         <li className="header-menu__list-item">
           <Link to="/sokaro">HOME</Link>
         </li>
-        <li className="header-menu__list-item">GALLERY</li>
+        <li className="header-menu__list-item">
+          <Link to="/gallery">GALLERY</Link>
+        </li>
         <li className="header-menu__list-item">
           <Link to="/contact">CONTACT US</Link>
         </li>

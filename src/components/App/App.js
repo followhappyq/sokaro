@@ -3,7 +3,7 @@ import { Segment, Sidebar } from "semantic-ui-react"
 import { Switch, Route } from "react-router-dom"
 
 import { Header, SideBar as BaseSideBar, Main } from "../../containers"
-import { Footer, Contact } from "../"
+import { Footer, Contact, Gallery } from "../"
 import "./App.scss"
 
 const App = ({ isVisible }) => {
@@ -20,6 +20,9 @@ const App = ({ isVisible }) => {
               </Route>
               <Route exact path="/contact">
                 <Contact />
+              </Route>
+              <Route exact path="/gallery">
+                <Gallery />
               </Route>
             </Switch>
             <Footer />
