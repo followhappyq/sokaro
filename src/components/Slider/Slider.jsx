@@ -1,9 +1,14 @@
 import React from "react"
+import Carousel from "react-spring-3d-carousel"
 
 import "./Slider.scss"
 
-const BaseSlider = () => {
-  return <div className="glide"></div>
+const Slider = ({ content, currentSlide }) => {
+  return (
+    <div className="carousel">
+      <Carousel slides={content} offsetRadius={3} goToSlide={currentSlide} />
+    </div>
+  )
 }
 
-export default BaseSlider
+export default Slider

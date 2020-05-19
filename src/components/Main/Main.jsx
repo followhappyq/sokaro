@@ -1,13 +1,16 @@
 import React from "react"
 
 import { Post } from "../"
-import { MyCreations, LastPost, TagCloud } from "../../containers"
+import { MyCreations, LastPost, TagCloud, Slider } from "../../containers"
 import "./Main.scss"
 
 const Main = ({ posts }) => {
   return (
     posts && (
       <div className="wrapper">
+        <div className="main__carousel">
+          <Slider />
+        </div>
         <div className="main-container">
           <LastPost />
           <div className="main-container__sidebar">

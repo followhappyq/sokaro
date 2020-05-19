@@ -1,0 +1,11 @@
+.carousel {
+  display: flex;
+  height: 100%;
+  padding-top: 20px;
+  &__item {
+    height: 100%;
+    img {
+      height: 100%;
+    }
+  }
+}
