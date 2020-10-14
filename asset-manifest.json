@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/sokaro/static/css/main.fa206778.chunk.css",
-    "main.js": "/sokaro/static/js/main.165690ff.chunk.js",
-    "main.js.map": "/sokaro/static/js/main.165690ff.chunk.js.map",
+    "main.css": "/sokaro/static/css/main.3854ed76.chunk.css",
+    "main.js": "/sokaro/static/js/main.7f9cd9c0.chunk.js",
+    "main.js.map": "/sokaro/static/js/main.7f9cd9c0.chunk.js.map",
     "runtime-main.js": "/sokaro/static/js/runtime-main.53dd6df4.js",
     "runtime-main.js.map": "/sokaro/static/js/runtime-main.53dd6df4.js.map",
-    "static/js/2.edb8b5af.chunk.js": "/sokaro/static/js/2.edb8b5af.chunk.js",
-    "static/js/2.edb8b5af.chunk.js.map": "/sokaro/static/js/2.edb8b5af.chunk.js.map",
+    "static/js/2.e07debc5.chunk.js": "/sokaro/static/js/2.e07debc5.chunk.js",
+    "static/js/2.e07debc5.chunk.js.map": "/sokaro/static/js/2.e07debc5.chunk.js.map",
     "index.html": "/sokaro/index.html",
-    "precache-manifest.e5d7fd7edf5552a54a9b9760fd06877e.js": "/sokaro/precache-manifest.e5d7fd7edf5552a54a9b9760fd06877e.js",
+    "precache-manifest.cf98f9914b973853aac9c6d80bcc7d2e.js": "/sokaro/precache-manifest.cf98f9914b973853aac9c6d80bcc7d2e.js",
     "service-worker.js": "/sokaro/service-worker.js",
-    "static/css/main.fa206778.chunk.css.map": "/sokaro/static/css/main.fa206778.chunk.css.map",
-    "static/js/2.edb8b5af.chunk.js.LICENSE.txt": "/sokaro/static/js/2.edb8b5af.chunk.js.LICENSE.txt",
+    "static/css/main.3854ed76.chunk.css.map": "/sokaro/static/css/main.3854ed76.chunk.css.map",
+    "static/js/2.e07debc5.chunk.js.LICENSE.txt": "/sokaro/static/js/2.e07debc5.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/sokaro/static/media/1.178bc566.jpg",
+    "static/media/2.jpg": "/sokaro/static/media/2.b7cd3a55.jpg",
+    "static/media/3.jpg": "/sokaro/static/media/3.0b974ced.jpg",
+    "static/media/4.jpg": "/sokaro/static/media/4.de6a462b.jpg",
+    "static/media/5.jpg": "/sokaro/static/media/5.5735fed2.jpg",
+    "static/media/6.jpg": "/sokaro/static/media/6.136659d1.jpg",
+    "static/media/7.jpg": "/sokaro/static/media/7.fed61c82.jpg",
+    "static/media/8.jpg": "/sokaro/static/media/8.31d0a445.jpg",
+    "static/media/about.jpg": "/sokaro/static/media/about.a73cd025.jpg",
     "static/media/Header.scss": "/sokaro/static/media/header-background.2dad7c07.png"
   },
   "entrypoints": [
     "static/js/runtime-main.53dd6df4.js",
-    "static/js/2.edb8b5af.chunk.js",
-    "static/css/main.fa206778.chunk.css",
-    "static/js/main.165690ff.chunk.js"
+    "static/js/2.e07debc5.chunk.js",
+    "static/css/main.3854ed76.chunk.css",
+    "static/js/main.7f9cd9c0.chunk.js"
   ]
 }
