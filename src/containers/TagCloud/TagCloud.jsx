@@ -18,5 +18,3 @@ const TagCloud = ({ tags }) => {
 }
 
 export default TagCloud
-
-/*  */

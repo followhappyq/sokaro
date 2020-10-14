@@ -1,6 +1,7 @@
 import React from "react"
 import { Icon, Image } from "semantic-ui-react"
 
+import ImageSrc from "./assets/header-center-logo.png"
 import { HeaderMenu } from "../"
 import "./Header.scss"
 
@@ -50,7 +51,7 @@ const Header = ({ onSideBarVisible }) => {
       <div className="header-center">
         <div className="header-center__logo">
           <div className="header-center__logo-item">
-            <Image src="./assets/images/header-center-logo.png" alt="SOKARO" />
+            <Image src={ImageSrc} alt="SOKARO" />
           </div>
         </div>
       </div>

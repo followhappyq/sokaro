@@ -12,8 +12,7 @@ const Main = ({ fetchContent, content }) => {
       .then((data) => {
         fetchContent(data)
       })
-    // eslint-disable-next-line
-  }, [])
+  }, [fetchContent])
   return <BaseMain posts={content} />
 }
 

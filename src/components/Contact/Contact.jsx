@@ -1,5 +1,6 @@
 import React from "react"
 
+import ImageSrc from "./assets/about.jpg"
 import "./Contact.scss"
 import { Social } from "../"
 
@@ -8,10 +9,7 @@ const Contact = () => {
     <div className="contact-wrapper">
       <div className="contact">
         <div className="contact__image">
-          <img
-            src="https://scontent-waw1-1.cdninstagram.com/v/t51.2885-15/e35/26158447_1756416054382064_4075349576452669440_n.jpg?_nc_ht=scontent-waw1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=NX1FFia_8n8AX-GxfsG&oh=039d6ec571a8487e9a1a8516f9ac98e3&oe=5EE2976A"
-            alt="1"
-          />
+          <img src={ImageSrc} alt="1" />
         </div>
         <div className="contact__header">Contact Us</div>
         <div className="contact__description">
